@@ -33,16 +33,17 @@ li {
 }
 
 .nav-heading {
-    margin-left: 220px;
+    margin-left: 150px;
     font-weight: bold;
+    font-size: 25px;
 }
 
 .nav-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
-    margin-right: 220px;
+    gap: 30px;
+    margin-right: 150px;
 }
 
 /* Group of Architects style */
@@ -141,6 +142,7 @@ img {
     margin-top: 15px;
 }
 
+/* section-3-style */
 
 .section-3 {
     margin-top: 100px;
@@ -161,6 +163,9 @@ img {
 .info {
     margin-top: 50px;
     font-family: Work Sans;
+    box-sizing: border-box;
+    
+    
 }
 
 .info p {
@@ -200,14 +205,48 @@ img {
 
 
 
+/* section-4-style */
+.section-4{
+    margin-top: 100px;
+    margin-left: 50px;
+}
 
+.section-4 h1{
+    font-size: 50px;
+    font-family: Work Sans;
+}
 
+.section-4 p{
+    font-size: 20px;
+    margin-top: 30px;
+}
 
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+}
 
+.sub-box{
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(241, 239, 79);
+    border-radius: 5px;
+    font-family: work sans;
+}
+.sub-box h4{
+    font-size: 10px;
 
-
-
-
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
 
 
 
