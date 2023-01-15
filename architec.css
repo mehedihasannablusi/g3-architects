@@ -127,18 +127,72 @@ img {
     color: #292727;
     font-family: Work Sans;
 }
-.bold{
+
+.bold {
     color: black;
 }
 
 .color {
-    color:#FF900E;
-        
+    color: #FF900E;
+
 }
 
-.hero-discription{
+.hero-discription {
     margin-top: 15px;
 }
+
+
+.section-3 {
+    margin: 80px;
+}
+
+.main-div {
+    display: flex;
+    gap: 50px;
+}
+
+.main-heading {
+    font-size: 45px;
+    font-family: Work Sans;
+    margin-bottom: 15px;
+}
+
+.info {
+    margin-top: 50px;
+    font-family: Work Sans;
+}
+
+.info p {
+    margin-top: 15px;
+}
+
+.img-3 img {
+    width: 600px;
+    height: 900px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:677px) {
