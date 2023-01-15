@@ -37,7 +37,9 @@ li {
     font-weight: bold;
     font-size: 25px;
 }
-
+.nav-bar:hover{
+    color: green;
+}
 .nav-list {
     display: flex;
     align-items: center;
@@ -206,6 +208,8 @@ img {
 
 
 /* section-4-style */
+
+
 .section-4{
     margin-top: 100px;
     margin-left: 50px;
@@ -249,10 +253,45 @@ img {
 }
 
 
+/* section-5-style */
+.section-5{
+    margin-top: 100px;
+}
 
+.sponspors h1{
+    font-size: 45px;
+    font-family: work sans;
+    margin-bottom: 20px;
+}
+.sponspors{
+    text-align: center;
+    font-family: work sans;
+}
+.logo{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.logo img{
+    height: 50px;
+    width: 150px;
+}
 
+/* fotter-style */
 
-
+.fotter{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    margin-top: 150px;
+    width: 1000px;
+    height: 100px;
+    background-color: #FFF4E7;
+}
 
 
 
