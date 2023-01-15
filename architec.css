@@ -6,11 +6,20 @@
     box-sizing: border-box;
 }
 
+
+
 a,
 li {
     list-style: none;
     text-decoration: none;
     color: black;
+}
+
+.top-section {
+    background: rgba(255, 144, 14, 0.1);
+    padding: 50px;
+
+
 }
 
 /* navbar-style */
@@ -19,12 +28,13 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+
     font-family: Work Sans;
 }
 
 .nav-heading {
     margin-left: 220px;
+    font-weight: bold;
 }
 
 .nav-list {
@@ -68,17 +78,79 @@ li {
 
 }
 
+.top-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+img {
+
+    Width: 1000px;
+
+
+}
+
+/* hero-section-style */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 70px;
+
+}
+
+.left {
+    margin-top: 85px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 25px;
+    column-gap: 25px;
+}
+
+.img-left {
+    width: 250px;
+    height: 250px;
+
+}
+
+.hero-heading {
+    font-size: 45px;
+    color: #292727;
+    font-family: Work Sans;
+}
+.bold{
+    color: black;
+}
+
+.color {
+    color:#FF900E;
+        
+}
+
+.hero-discription{
+    margin-top: 15px;
+}
 
 
 @media screen and (max-width:677px) {
 
-    .nav-bar{
+    .nav-bar {
         flex-direction: column;
         justify-content: left;
         /* align-items: flex-start; */
         margin: 20px;
     }
-    .nav-list{
+
+    .nav-list {
         flex-direction: column;
         text-align: center;
         align-items: center;
@@ -87,10 +159,12 @@ li {
         margin-top: 20px;
         margin-left: 20px;
     }
-    a{
+
+    a {
         text-align: center;
     }
-    .nav-heading{
+
+    .nav-heading {
         font-size: 15px;
         text-align: center;
         margin-left: 20px;
@@ -99,7 +173,9 @@ li {
     }
 
 
-    .top-discription , .primary-btn ,.Group-of-Architects h1{
+    .top-discription,
+    .primary-btn,
+    .Group-of-Architects h1 {
         display: none;
     }
 }
